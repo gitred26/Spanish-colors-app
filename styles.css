@@ -1,0 +1,32 @@
+body {
+    background-color:beige;
+}
+h1, footer {text-align: center;}
+
+#colores {color: blueviolet;}
+
+.color-title {font-weight: normal;}
+
+#red {color: red;}
+#blue {color: blue;}
+#orange {color: orange;}
+#green {color: green;}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.color-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.color-item {
+    flex-basis: 45%;
+    margin-bottom: 20px; 
+}
+
+.color-title {margin-bottom: 5px;}
